@@ -3,6 +3,6 @@ const { nationalpark } = require('../controllers');
 
 const router = express.Router();
 
-router.post('/nationalpark', nationalpark.getNationalPark);
+router.get('/nationalpark', nationalpark.getNationalPark);
 
 module.exports = router;
