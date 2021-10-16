@@ -1,5 +1,5 @@
-const nationalpark = require('./nationalpark.controller');
+const national_park = require('./national_park.controller');
 
 module.exports = {
-  nationalpark
+  national_park
 }

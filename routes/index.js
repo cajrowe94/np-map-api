@@ -1,8 +1,8 @@
 const express = require('express');
-const { nationalpark } = require('../controllers');
+const { national_park } = require('../controllers');
 
 const router = express.Router();
 
-router.get('/nationalpark', nationalpark.getNationalPark);
+router.get('/national_park', national_park.getNationalPark);
 
 module.exports = router;

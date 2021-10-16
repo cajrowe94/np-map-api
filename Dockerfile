@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:16
 
 # auto restart for server file changes
 RUN npm install -g nodemon
